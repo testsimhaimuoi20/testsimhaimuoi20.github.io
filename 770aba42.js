@@ -2570,7 +2570,7 @@
                     }));
                 return Object(a.useEffect)((function() {
                     if (u > 0 && null != c) {
-                        var e = c + 1;
+                        var e = c;
                         t = e /*, an.v10.updateDetail(u, JSON.stringify({
                             outFocus: t
                         }), l), n(Te(e)) */
@@ -3157,7 +3157,10 @@
                             }();
                         return Object(a.useEffect)((function() {
                             function e(e) {
+                                
                                 var t = Mn.a.isFullscreen;
+                                
+                                //var t = true;
                                 i(t), n && "function" === typeof n && n(t, e)
                             }
                             return Mn.a.on("change", e),
